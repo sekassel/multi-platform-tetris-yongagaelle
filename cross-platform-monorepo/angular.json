@@ -129,12 +129,15 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/tetris/src/favicon.ico",
-              "projects/tetris/src/assets"
+              "projects/tetris/src/assets",
+              "projects/tetris/src/manifest.webmanifest"
             ],
             "styles": [
               "projects/tetris/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "serviceWorker": true,
+            "ngswConfigPath": "projects/tetris/ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -197,7 +200,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/tetris/src/favicon.ico",
-              "projects/tetris/src/assets"
+              "projects/tetris/src/assets",
+              "projects/tetris/src/manifest.webmanifest"
             ],
             "styles": [
               "projects/tetris/src/styles.scss"
